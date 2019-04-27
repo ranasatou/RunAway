@@ -22,7 +22,7 @@ public class coinGenerator : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (unitychan.transform.position.x + 10.0f > this.rightGeneratePos) {
+        if (unitychan.transform.position.x + 15.0f > this.rightGeneratePos) {
             // コインを何枚出すのかランダムに設定
             int num = Random.Range(0, 20);
 
